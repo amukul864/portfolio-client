@@ -1,0 +1,72 @@
+.section {
+  position: relative;
+}
+
+.container {
+  overflow-y: auto;
+  height: 90vh;
+  position: relative;
+}
+
+.container::-webkit-scrollbar {
+  width: 1rem;
+}
+
+.container::-webkit-scrollbar-track {
+  border-radius: 0.75rem;
+  background-color: #7fffdd;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background: #003728;
+  border-radius: 0.75rem;
+  border: 2px solid #7fffdd;
+}
+
+.heading {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: white;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background: #003728;
+  width: 100%;
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr {
+  width: 90%;
+  height: 2px;
+  color: white;
+  background-color: white;
+  border: none;
+  border-radius: 2px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .main {
+    padding: 1rem 2rem;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .heading {
+    font-size: 1.75rem;
+    font-weight: 600;
+  }
+}

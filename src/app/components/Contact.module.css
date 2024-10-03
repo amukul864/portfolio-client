@@ -1,0 +1,108 @@
+.heading {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #003728;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background: white;
+  width: 100%;
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0.25rem solid #003728;
+  border-radius: 2rem;
+}
+
+.hr {
+  width: 90%;
+  height: 2px;
+  color: #003728;
+  background-color: #003728;
+  border: none;
+  border-radius: 2px;
+}
+
+.section {
+  padding: 2rem 4rem;
+}
+
+.input {
+  width: 50%;
+  padding: 0.5rem 1.5rem;
+  border: 3px solid #003728;
+  margin-top: 0.5rem;
+  color: #003728;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+}
+
+.button {
+  width: 30%;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  margin: 0.5rem;
+  background-color: #003728;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.input::placeholder {
+  color: #006a4e;
+}
+
+.contact {
+  text-align: center;
+  text-wrap: pretty;
+}
+
+@media only screen and (max-width: 1000px) {
+  .section {
+    padding: 1rem 2rem;
+  }
+
+  .input {
+    width: auto;
+    font-size: 1.25rem;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  .button {
+    width: 40%;
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .input {
+    width: auto;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .heading {
+    font-size: 1.75rem;
+    font-weight: 600;
+  }
+
+  .button {
+    width: auto;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}

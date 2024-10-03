@@ -1,0 +1,42 @@
+.main {
+  position: relative;
+}
+
+.personalContainer {
+  height: 90vh;
+  scroll-snap-align: end;
+}
+
+.otherContainer {
+  min-height: 90vh;
+  scroll-snap-align: end;
+}
+
+.section {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 90vh;
+  background-image: linear-gradient(to bottom, #ffffff);
+  position: relative;
+}
+
+.section::-webkit-scrollbar {
+  width: 1rem;
+}
+
+.section::-webkit-scrollbar-track {
+  border-radius: 0.75rem;
+  background-color: #7fffdd;
+}
+
+.section::-webkit-scrollbar-thumb {
+  background: #003728;
+  border-radius: 0.75rem;
+  border: 2px solid #7fffdd;
+}
+
+@media only screen and (max-width: 1000px) {
+}
+
+@media only screen and (max-width: 600px) {
+}

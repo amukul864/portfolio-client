@@ -1,0 +1,133 @@
+.section {
+  position: relative;
+}
+
+.heading {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: white;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: white;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+.container {
+  overflow-y: auto;
+  height: 90vh;
+  position: relative;
+}
+
+.submain {
+  background: #003728;
+  width: 100%;
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0.25rem solid white;
+  border-radius: 2rem;
+}
+
+.main {
+  padding: 2rem 4rem;
+  background: #003728;
+}
+
+.hr {
+  width: 90%;
+  height: 2px;
+  color: white;
+  background-color: white;
+  border: none;
+  border-radius: 2px;
+}
+
+.input {
+  width: 50%;
+  padding: 0.5rem 1.5rem;
+  border: 3px solid white;
+  margin-top: 0.5rem;
+  color: white;
+  background-color: #003728;
+  font-size: 1.75rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+}
+
+.button {
+  width: 30%;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  margin: 0.5rem;
+  background-color: white;
+  color: #003728;
+  font-size: 1.75rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.container::-webkit-scrollbar {
+  width: 1rem;
+}
+
+.container::-webkit-scrollbar-track {
+  border-radius: 0.75rem;
+  background-color: #7fffdd;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background: #003728;
+  border-radius: 0.75rem;
+  border: 2px solid #7fffdd;
+}
+
+@media only screen and (max-width: 1000px) {
+  .button,
+  .input,
+  .label {
+    font-size: 1.5rem;
+    width: auto;
+    max-width: 120%;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  .main,
+  .submain {
+    padding: 1rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .button,
+  .input,
+  .label {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
+  .heading {
+    font-size: 1.75rem;
+    font-weight: 600;
+  }
+}

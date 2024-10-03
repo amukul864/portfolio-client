@@ -1,0 +1,19 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000403;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+#modal-root {
+  position: relative;
+  z-index: 9999;
+}
+
+.link {
+  text-decoration: none;
+}
