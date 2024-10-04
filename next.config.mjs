@@ -5,7 +5,7 @@ const nextConfig = {
     styledComponents: true,
   },
   images: {
-    domains: ["localhost"],
+    domains: ["portfolio-server-qx1n.onrender.com"],
   },
 };
 

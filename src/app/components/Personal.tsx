@@ -30,7 +30,12 @@ const Personal = () => {
         ))}
       </div>
       <div className={styles.image}>
-        <Image alt="Cover Photo" fill={true} src="/coverPhoto.png" />
+        <Image
+          alt="Cover Photo"
+          fill={true}
+          src="/coverPhoto.png"
+          unoptimized
+        />
       </div>
     </div>
   );
