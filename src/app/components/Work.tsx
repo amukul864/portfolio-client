@@ -114,7 +114,7 @@ const Work: React.FC<{
                       }
                       key={index}
                     >
-                      {index === 0 ? "Live Link" : `Github Link ${index}`}
+                      {item.liveLinks && index < item.liveLinks.length - 2 ? `Live Link ${index}` : `Github Link ${index}`}
                     </div>
                   </a>
                 </div>
